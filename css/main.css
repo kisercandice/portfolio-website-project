@@ -1,0 +1,125 @@
+/***** BASE STYLES *****/
+body{
+  font-family: 'Roboto', sans-serif;
+  color: #FFFFFF;
+  font-size: 24px;
+}
+/***** GRID *****/
+.full-width{
+    width: 1200px;
+    margin: 0 auto;
+    overflow: auto;
+}
+.half-width{
+    width: 600px;
+    height: 400px;
+    float: left;
+    box-sizing: border-box;
+    padding: 0px 25px 25px 25px;
+}
+.third-width{
+    width: 400px;
+    height: 270px;
+    float: left;
+    box-sizing: border-box;
+    padding: 0 25px 0 25px;
+}
+/***** HEADER *****/
+header{
+  background-image: url('../img/hero-image.png');
+  height: 800px;
+  background-size: cover;
+  background-position: center;
+}
+header h1{
+  font-family: 'Roboto Slab', bold;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 50%;
+  color: #bdbf09;
+  padding: 300px 0 0 0;
+  text-align: center;
+}
+header h2{
+  font-size: 48px;
+  color: #095256;
+  text-align: center;
+  padding-top: 0;
+}
+/***** PORTFOLIO *****/
+#portfolio{
+  height: auto;
+}
+#portfolio img{
+  height: 350px;
+  width: 550px;
+  border: 1px solid LightGray
+}
+#portfolio h3{
+  color: #095256;
+  text-align: center;
+  font-family: 'Roboto Slab', bold;
+  font-size: 36px;
+  line-height: 0;
+  padding: 15px;
+}
+#portfolio h4{
+  color: #095256;
+  font-weight:bold;
+  font-size: 24px;
+  line-height: 0;
+  padding-left: 0;
+  padding-top: 0;
+}
+#portfolio h6{
+  color: #095256;
+  padding-left: 0;
+  padding-top: 0;
+}
+/***** ABOUT *****/
+#about{
+  background-color: #087e8b;
+  height: auto;
+}
+#about img{
+  width: 550px;
+  height: 350px;
+}
+#about h3{
+  text-align: center;
+  font-family: 'Roboto Slab', bold;
+  font-size: 36px;
+}
+#about h4{
+  font-weight: bold;
+}
+#about p{
+  font-size: 18px;
+}
+/***** FOOTER *****/
+footer{
+  height: auto;
+  background-color: #095156;
+  text-align: center;
+}
+#contact h3{
+  font-family: 'Roboto Slab', bold;
+  font-size: 36px;
+}
+#contact h4{
+  font-weight: bold;
+}
+#contact p{
+  line-height: 150%;
+}
+#contact a{
+  color: #bdbf09;
+}
+#contact ul{
+  list-style-type: none;
+  padding-left: 0;
+  display:inline;
+}
+#contact ul li{
+  display: inline;
+}
